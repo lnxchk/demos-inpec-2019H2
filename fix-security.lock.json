@@ -1,0 +1,42 @@
+{
+  "revision_id": "458d61ebf39c73b73920bc6f9e56acf78de61cb73b8c8bb98f3468d6aa162cc1",
+  "name": "fix-security",
+  "run_list": [
+    "recipe[os-hardening::default]"
+  ],
+  "included_policy_locks": [
+
+  ],
+  "cookbook_locks": {
+    "os-hardening": {
+      "version": "4.0.0",
+      "identifier": "e20b98be94004b4013698889ce3ce232f88fbb27",
+      "dotted_decimal_identifier": "63626095396913227.18035742492708412.248708546411303",
+      "cache_key": "os-hardening-4.0.0-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io:443/api/v1/cookbooks/os-hardening/versions/4.0.0/download",
+      "source_options": {
+        "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/os-hardening/versions/4.0.0/download",
+        "version": "4.0.0"
+      }
+    }
+  },
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+
+  },
+  "solution_dependencies": {
+    "Policyfile": [
+      [
+        "os-hardening",
+        "= 4.0.0"
+      ]
+    ],
+    "dependencies": {
+      "os-hardening (4.0.0)": [
+
+      ]
+    }
+  }
+}

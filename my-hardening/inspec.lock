@@ -1,0 +1,8 @@
+---
+lockfile_version: 1
+depends:
+- name: linux-baseline
+  resolved_source:
+    git: https://github.com/dev-sec/linux-baseline
+    ref: 74df8a2d5a90a0a85d649450f2aaf36d06e91eb4
+  version_constraints: []
